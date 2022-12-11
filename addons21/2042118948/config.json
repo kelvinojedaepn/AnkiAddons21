@@ -1,0 +1,20 @@
+{
+  "paper": {
+    "format": "A4",
+    "orientation": "landscape",
+    "cardsPerRow": 4,
+    "cardsPerCol": 4
+  },
+  "output": {
+    "createHtml": true,
+    "createPdf": true,
+    "path": "download",
+    "filename": "papercard_{deck}",
+    "filedate": "_%y%m%d"
+  },
+  "card": {
+    "plaintext": true,
+    "repeatQuestionOnAnswer": false,
+    "padding": 20
+  }
+}

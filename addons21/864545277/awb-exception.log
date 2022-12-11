@@ -1,0 +1,64 @@
+Traceback (most recent call last):
+  File "/home/ricardo/projects/github/anki-web-browser/src/exception_handler.py", line 18, in handler
+    return fn(*args, **kargs)
+  File "/home/ricardo/projects/github/anki-web-browser/src/browser.py", line 348, in open
+    self._openUrl(target)  # first tab
+  File "/home/ricardo/projects/github/anki-web-browser/src/browser.py", line 361, in _openUrl
+    self.add_new_tab(QUrl(address), "Loading...")
+  File "/home/ricardo/projects/github/anki-web-browser/src/browser.py", line 257, in add_new_tab
+    browser = AwWebEngine(self)
+  File "/home/ricardo/projects/github/anki-web-browser/src/browser_engine.py", line 26, in __init__
+    self.create()
+  File "/home/ricardo/projects/github/anki-web-browser/src/browser_engine.py", line 52, in create
+    self.setBackgroundRole(pal)
+TypeError: setBackgroundRole(self, QPalette.ColorRole): argument 1 has unexpected type 'QPalette'
+
+
+<class 'TypeError'>[]browser.py[]348[]['https://images.google.com/?q={}']|my app test|||https://images.google.com/?q=my%20app%20test
+Traceback (most recent call last):
+  File "/home/ricardo/projects/github/anki-web-browser/src/exception_handler.py", line 18, in handler
+    return fn(*args, **kargs)
+  File "/home/ricardo/projects/github/anki-web-browser/src/browser.py", line 333, in open
+    self._openUrl(target)  # first tab
+  File "/home/ricardo/projects/github/anki-web-browser/src/browser.py", line 346, in _openUrl
+    self.add_new_tab(QUrl(address), "Loading...")
+  File "/home/ricardo/projects/github/anki-web-browser/src/browser.py", line 242, in add_new_tab
+    browser = AwWebEngine(self)
+  File "/home/ricardo/projects/github/anki-web-browser/src/browser_engine.py", line 41, in __init__
+    self.create()
+  File "/home/ricardo/projects/github/anki-web-browser/src/browser_engine.py", line 73, in create
+    self.page().setHtml("""
+TypeError: setHtml(self, str, baseUrl: QUrl = QUrl()): argument 2 has unexpected type 'str'
+
+
+<class 'TypeError'>[]browser.py[]333[]['https://images.google.com/?q={}']|my app test|||https://images.google.com/?q=my%20app%20test
+Traceback (most recent call last):
+  File "/home/ricardo/projects/github/anki-web-browser/src/exception_handler.py", line 18, in handler
+    return fn(*args, **kargs)
+  File "/home/ricardo/projects/github/anki-web-browser/src/browser.py", line 333, in open
+    self._openUrl(target)  # first tab
+  File "/home/ricardo/projects/github/anki-web-browser/src/browser.py", line 346, in _openUrl
+    self.add_new_tab(QUrl(address), "Loading...")
+  File "/home/ricardo/projects/github/anki-web-browser/src/browser.py", line 242, in add_new_tab
+    browser = AwWebEngine(self)
+  File "/home/ricardo/projects/github/anki-web-browser/src/browser_engine.py", line 41, in __init__
+    self.create()
+  File "/home/ricardo/projects/github/anki-web-browser/src/browser_engine.py", line 77, in create
+    """, QUrl.toString("Loading..."))
+TypeError: toString(self, options: QUrl.FormattingOptions = QUrl.PrettyDecoded): first argument of unbound method must have type 'QUrl'
+
+
+<class 'TypeError'>[]browser.py[]333[]['https://images.google.com/?q={}']|my app test|||https://images.google.com/?q=my%20app%20test
+Traceback (most recent call last):
+  File "/home/ricardo/projects/github/anki-web-browser/src/exception_handler.py", line 18, in handler
+    return fn(*args, **kargs)
+  File "/home/ricardo/projects/github/anki-web-browser/src/browser.py", line 343, in open
+    self._openUrl(target)  # first tab
+  File "/home/ricardo/projects/github/anki-web-browser/src/browser.py", line 356, in _openUrl
+    self.add_new_tab(QUrl(address), "Loading...")
+  File "/home/ricardo/projects/github/anki-web-browser/src/browser.py", line 244, in add_new_tab
+    self.page().setHtml("""
+AttributeError: 'AwBrowser' object has no attribute 'page'
+
+
+<class 'AttributeError'>[]browser.py[]343[]['https://images.google.com/?q={}']|my app test|||https://images.google.com/?q=my%20app%20test

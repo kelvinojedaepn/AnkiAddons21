@@ -1,0 +1,27 @@
+; SlavaSoft Optimizing Checksum Utility - fsum 2.52.00337 <www.slavasoft.com>
+;
+; Generated on 11/19/20 at 23:29:44 
+;
+31112e97945bb5576817ff851dc5c5db *lib\com\lovac42\anki\gui\checkbox.py
+1ef2e99fa2e9bd28dab476ec126f2674 *lib\com\lovac42\anki\gui\muffins.py
+6d2a7e390f0d16fa27456e31fdddf02a *lib\com\lovac42\anki\gui\toolbar.py
+d41d8cd98f00b204e9800998ecf8427e *lib\com\lovac42\anki\gui\__init__.py
+d116478882b2060a742fdb93731a8568 *lib\com\lovac42\anki\others\safety_first.py
+d41d8cd98f00b204e9800998ecf8427e *lib\com\lovac42\anki\others\__init__.py
+342f3dc2711e537b20a6a430f674542f *lib\com\lovac42\anki\version.py
+377b55e56deced1c860215a8d70e23a0 *lib\com\lovac42\anki\__init__.py
+d3269c5d885fe070b97bfff285ad03d3 *lib\com\lovac42\config\safety_first.py
+d41d8cd98f00b204e9800998ecf8427e *lib\com\lovac42\config\__init__.py
+d41d8cd98f00b204e9800998ecf8427e *lib\com\lovac42\__init__.py
+d41d8cd98f00b204e9800998ecf8427e *lib\com\__init__.py
+d41d8cd98f00b204e9800998ecf8427e *lib\__init__.py
+bb83658b64635f42588136658407b1e4 *config.json
+fb15e9610d98a7a09b48ec6f51cc2e16 *config.md
+a52868cd9c452175945e6b536f61e899 *config.py
+f02dbad6601435fb76ad433091b53917 *const.py
+0f3673d8eace5a4fe49efd971a892c1d *main.py
+911d4f8560a75b17a5f3a7b3d94d5ddf *meta_id.json
+01c77e25e426be23268ee29c30476b79 *rememorize.py
+3924e27ff25ef7e336e0238fa1b4bb43 *utils.py
+773e0b08ea85a0f8bcd943def8154977 *VERSION
+2d6bbcb801656cdb1da6692873a74c51 *__init__.py
